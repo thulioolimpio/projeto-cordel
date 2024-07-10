@@ -17,7 +17,7 @@
 
 }
 
-body{
+html,body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -66,8 +66,6 @@ section.normal{
 
 section.imagem{
     background-color: gray;
-    background-position: right center;
-    background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.308);
 
@@ -83,10 +81,14 @@ section.imagem > p{
 
 #img01{
     background-image: url('../imagens/background001.jpg');
+    background-size: cover;
+    background-position: right center;
 }
 
 #img02{
     background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-position: right center;
 }
 footer {
     background-color: black;
